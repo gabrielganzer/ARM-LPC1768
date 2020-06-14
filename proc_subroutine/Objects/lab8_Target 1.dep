@@ -1,0 +1,381 @@
+Dependencies for Project 'lab8', Target 'Target 1': (DO NOT MODIFY !)
+F (.\c_functions.c)(0x5E1DB2B4)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\c_functions.o --omf_browse .\objects\c_functions.crf --depend .\objects\c_functions.d)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Lib\ARM\arm_cortexM3l_math.lib)(0x5D25F326)()
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q15.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_nn_activations_q15.o --omf_browse .\objects\arm_nn_activations_q15.crf --depend .\objects\arm_nn_activations_q15.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q7.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_nn_activations_q7.o --omf_browse .\objects\arm_nn_activations_q7.crf --depend .\objects\arm_nn_activations_q7.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_relu_q15.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_relu_q15.o --omf_browse .\objects\arm_relu_q15.crf --depend .\objects\arm_relu_q15.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_relu_q7.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_relu_q7.o --omf_browse .\objects\arm_relu_q7.crf --depend .\objects\arm_relu_q7.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_1x1_HWC_q7_fast_nonsquare.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_convolve_1x1_hwc_q7_fast_nonsquare.o --omf_browse .\objects\arm_convolve_1x1_hwc_q7_fast_nonsquare.crf --depend .\objects\arm_convolve_1x1_hwc_q7_fast_nonsquare.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_basic.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_convolve_hwc_q15_basic.o --omf_browse .\objects\arm_convolve_hwc_q15_basic.crf --depend .\objects\arm_convolve_hwc_q15_basic.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_fast.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_convolve_hwc_q15_fast.o --omf_browse .\objects\arm_convolve_hwc_q15_fast.crf --depend .\objects\arm_convolve_hwc_q15_fast.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_RGB.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_convolve_hwc_q7_rgb.o --omf_browse .\objects\arm_convolve_hwc_q7_rgb.crf --depend .\objects\arm_convolve_hwc_q7_rgb.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_convolve_hwc_q7_basic.o --omf_browse .\objects\arm_convolve_hwc_q7_basic.crf --depend .\objects\arm_convolve_hwc_q7_basic.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic_nonsquare.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_convolve_hwc_q7_basic_nonsquare.o --omf_browse .\objects\arm_convolve_hwc_q7_basic_nonsquare.crf --depend .\objects\arm_convolve_hwc_q7_basic_nonsquare.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_convolve_hwc_q7_fast.o --omf_browse .\objects\arm_convolve_hwc_q7_fast.crf --depend .\objects\arm_convolve_hwc_q7_fast.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast_nonsquare.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_convolve_hwc_q7_fast_nonsquare.o --omf_browse .\objects\arm_convolve_hwc_q7_fast_nonsquare.crf --depend .\objects\arm_convolve_hwc_q7_fast_nonsquare.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_conv_u8_basic_ver1.c)(0x5D25F328)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_depthwise_conv_u8_basic_ver1.o --omf_browse .\objects\arm_depthwise_conv_u8_basic_ver1.crf --depend .\objects\arm_depthwise_conv_u8_basic_ver1.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBDC52)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_depthwise_separable_conv_hwc_q7.o --omf_browse .\objects\arm_depthwise_separable_conv_hwc_q7.crf --depend .\objects\arm_depthwise_separable_conv_hwc_q7.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7_nonsquare.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_depthwise_separable_conv_hwc_q7_nonsquare.o --omf_browse .\objects\arm_depthwise_separable_conv_hwc_q7_nonsquare.crf --depend .\objects\arm_depthwise_separable_conv_hwc_q7_nonsquare.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_nn_mat_mult_kernel_q7_q15.o --omf_browse .\objects\arm_nn_mat_mult_kernel_q7_q15.crf --depend .\objects\arm_nn_mat_mult_kernel_q7_q15.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15_reordered.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_nn_mat_mult_kernel_q7_q15_reordered.o --omf_browse .\objects\arm_nn_mat_mult_kernel_q7_q15_reordered.crf --depend .\objects\arm_nn_mat_mult_kernel_q7_q15_reordered.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_fully_connected_mat_q7_vec_q15.o --omf_browse .\objects\arm_fully_connected_mat_q7_vec_q15.crf --depend .\objects\arm_fully_connected_mat_q7_vec_q15.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15_opt.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_fully_connected_mat_q7_vec_q15_opt.o --omf_browse .\objects\arm_fully_connected_mat_q7_vec_q15_opt.crf --depend .\objects\arm_fully_connected_mat_q7_vec_q15_opt.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_fully_connected_q15.o --omf_browse .\objects\arm_fully_connected_q15.crf --depend .\objects\arm_fully_connected_q15.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15_opt.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_fully_connected_q15_opt.o --omf_browse .\objects\arm_fully_connected_q15_opt.crf --depend .\objects\arm_fully_connected_q15_opt.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_fully_connected_q7.o --omf_browse .\objects\arm_fully_connected_q7.crf --depend .\objects\arm_fully_connected_q7.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7_opt.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_fully_connected_q7_opt.o --omf_browse .\objects\arm_fully_connected_q7_opt.crf --depend .\objects\arm_fully_connected_q7_opt.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q15.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_nn_mult_q15.o --omf_browse .\objects\arm_nn_mult_q15.crf --depend .\objects\arm_nn_mult_q15.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q7.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_nn_mult_q7.o --omf_browse .\objects\arm_nn_mult_q7.crf --depend .\objects\arm_nn_mult_q7.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nntables.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_nntables.o --omf_browse .\objects\arm_nntables.crf --depend .\objects\arm_nntables.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_no_shift.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_q7_to_q15_no_shift.o --omf_browse .\objects\arm_q7_to_q15_no_shift.crf --depend .\objects\arm_q7_to_q15_no_shift.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_reordered_no_shift.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_q7_to_q15_reordered_no_shift.o --omf_browse .\objects\arm_q7_to_q15_reordered_no_shift.crf --depend .\objects\arm_q7_to_q15_reordered_no_shift.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\PoolingFunctions\arm_pool_q7_HWC.c)(0x5D25F328)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_pool_q7_hwc.o --omf_browse .\objects\arm_pool_q7_hwc.crf --depend .\objects\arm_pool_q7_hwc.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q15.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_softmax_q15.o --omf_browse .\objects\arm_softmax_q15.crf --depend .\objects\arm_softmax_q15.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q7.c)(0x5C8A86EC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\arm_softmax_q7.o --omf_browse .\objects\arm_softmax_q7.crf --depend .\objects\arm_softmax_q7.d)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_math.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBDC52)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEBDC46)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nnsupportfunctions.h)(0x5D25F328)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include\arm_common_tables.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include\arm_nn_tables.h)(0x5D25F328)
+F (RTE\Device\LPC1768\RTE_Device.h)(0x5D5BE3CA)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x5E1DB297)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x58493F92)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include-IC:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLPC175x_6x-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBDC52)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x58493F92)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
+I (C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)

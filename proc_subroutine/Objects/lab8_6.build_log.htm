@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Gabriel Ganzer, Politecnico di Torino, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.28.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.162.16.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+\\Mac\iCloud\PoliTO\Computer Architectures\Labs\Lab08\lab8_6.uvprojx
+Project File Date:  01/12/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+assembling startup_LPC17xx.s...
+linking...
+Program Size: Code=3800 RO-data=204 RW-data=8 ZI-data=680  
+".\Objects\lab8_6.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+   * Component: DSP Variant: Library Version: 1.7.0
+   * Component: NN Lib Version: 1.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.6.0.pack
+                Keil.LPC1700_DFP.2.6.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+   * Component: GPDMA Version: 1.2.0
+   * Component: GPIO Version: 1.1.0
+   * Component: PIN Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\LPC1768
+  .\RTE\_Target_1
+  C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\DSP\Include
+  C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Include
+  C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include
+  C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: ARM::CMSIS:DSP:Library:1.7.0
+      Include file:  CMSIS\DSP\Include\arm_math.h
+      Library file:  CMSIS\DSP\Lib\ARM\arm_cortexM3l_math.lib
+
+   * Component: ARM::CMSIS:NN Lib:1.2.0
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7_opt.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15_opt.c
+      Source file:   CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_reordered_no_shift.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast_nonsquare.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_1x1_HWC_q7_fast_nonsquare.c
+      Source file:   CMSIS\NN\Source\ActivationFunctions\arm_relu_q7.c
+      Source file:   CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15_opt.c
+      Source file:   CMSIS\NN\Source\NNSupportFunctions\arm_nntables.c
+      Source file:   CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q15.c
+      Source file:   CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_no_shift.c
+      Source file:   CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q7.c
+      Source file:   CMSIS\NN\Source\PoolingFunctions\arm_pool_q7_HWC.c
+      Source file:   CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q15.c
+      Source file:   CMSIS\NN\Source\ActivationFunctions\arm_relu_q15.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7_nonsquare.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_RGB.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_basic.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15_reordered.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic_nonsquare.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15.c
+      Source file:   CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q7.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast.c
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_conv_u8_basic_ver1.c
+      Include file:  CMSIS\NN\Include\arm_nnfunctions.h
+      Source file:   CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_fast.c
+      Source file:   CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q7.c
+      Source file:   CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q15.c
+
+   * Component: Keil::Device:GPDMA:1.2.0
+      Include file:  RTE_Driver\GPDMA_LPC17xx.h
+      Source file:   RTE_Driver\GPDMA_LPC17xx.c
+
+   * Component: Keil::Device:GPIO:1.1.0
+      Source file:   RTE_Driver\GPIO_LPC17xx.c
+      Include file:  RTE_Driver\GPIO_LPC17xx.h
+
+   * Component: Keil::Device:PIN:1.0.0
+      Include file:  RTE_Driver\PIN_LPC17xx.h
+      Source file:   RTE_Driver\PIN_LPC17xx.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_LPC17xx.c
+      Include file:  Device\Include\LPC17xx.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

@@ -1,0 +1,517 @@
+Component: ARM Compiler 5.06 update 6 (build 750) Tool: armlink [4d35ed]
+
+==============================================================================
+
+Section Cross References
+
+    arm_nn_activations_q15.o(i.arm_nn_activations_direct_q15) refers to arm_nntables.o(.constdata) for sigmoidTable_q15
+    arm_nn_activations_q7.o(i.arm_nn_activations_direct_q7) refers to arm_nntables.o(.constdata) for sigmoidTable_q7
+    arm_convolve_1x1_hwc_q7_fast_nonsquare.o(i.arm_convolve_1x1_HWC_q7_fast_nonsquare) refers to arm_q7_to_q15_reordered_no_shift.o(i.arm_q7_to_q15_reordered_no_shift) for arm_q7_to_q15_reordered_no_shift
+    arm_convolve_1x1_hwc_q7_fast_nonsquare.o(i.arm_convolve_1x1_HWC_q7_fast_nonsquare) refers to arm_nn_mat_mult_kernel_q7_q15_reordered.o(i.arm_nn_mat_mult_kernel_q7_q15_reordered) for arm_nn_mat_mult_kernel_q7_q15_reordered
+    arm_convolve_hwc_q15_basic.o(i.arm_convolve_HWC_q15_basic) refers to rt_memclr.o(.text) for __aeabi_memclr
+    arm_convolve_hwc_q15_basic.o(i.arm_convolve_HWC_q15_basic) refers to rt_memcpy_v6.o(.text) for __aeabi_memcpy
+    arm_convolve_hwc_q15_fast.o(i.arm_convolve_HWC_q15_fast) refers to rt_memclr.o(.text) for __aeabi_memclr
+    arm_convolve_hwc_q15_fast.o(i.arm_convolve_HWC_q15_fast) refers to rt_memcpy_v6.o(.text) for __aeabi_memcpy
+    arm_convolve_hwc_q7_rgb.o(i.arm_convolve_HWC_q7_RGB) refers to arm_nn_mat_mult_kernel_q7_q15.o(i.arm_nn_mat_mult_kernel_q7_q15) for arm_nn_mat_mult_kernel_q7_q15
+    arm_convolve_hwc_q7_basic.o(i.arm_convolve_HWC_q7_basic) refers to rt_memclr.o(.text) for __aeabi_memclr
+    arm_convolve_hwc_q7_basic.o(i.arm_convolve_HWC_q7_basic) refers to arm_q7_to_q15_no_shift.o(i.arm_q7_to_q15_no_shift) for arm_q7_to_q15_no_shift
+    arm_convolve_hwc_q7_basic.o(i.arm_convolve_HWC_q7_basic) refers to arm_nn_mat_mult_kernel_q7_q15.o(i.arm_nn_mat_mult_kernel_q7_q15) for arm_nn_mat_mult_kernel_q7_q15
+    arm_convolve_hwc_q7_basic_nonsquare.o(i.arm_convolve_HWC_q7_basic_nonsquare) refers to rt_memclr.o(.text) for __aeabi_memclr
+    arm_convolve_hwc_q7_basic_nonsquare.o(i.arm_convolve_HWC_q7_basic_nonsquare) refers to arm_q7_to_q15_no_shift.o(i.arm_q7_to_q15_no_shift) for arm_q7_to_q15_no_shift
+    arm_convolve_hwc_q7_basic_nonsquare.o(i.arm_convolve_HWC_q7_basic_nonsquare) refers to arm_nn_mat_mult_kernel_q7_q15.o(i.arm_nn_mat_mult_kernel_q7_q15) for arm_nn_mat_mult_kernel_q7_q15
+    arm_convolve_hwc_q7_fast.o(i.arm_convolve_HWC_q7_fast) refers to rt_memclr.o(.text) for __aeabi_memclr
+    arm_convolve_hwc_q7_fast.o(i.arm_convolve_HWC_q7_fast) refers to arm_q7_to_q15_reordered_no_shift.o(i.arm_q7_to_q15_reordered_no_shift) for arm_q7_to_q15_reordered_no_shift
+    arm_convolve_hwc_q7_fast.o(i.arm_convolve_HWC_q7_fast) refers to arm_nn_mat_mult_kernel_q7_q15_reordered.o(i.arm_nn_mat_mult_kernel_q7_q15_reordered) for arm_nn_mat_mult_kernel_q7_q15_reordered
+    arm_convolve_hwc_q7_fast_nonsquare.o(i.arm_convolve_HWC_q7_fast_nonsquare) refers to rt_memclr.o(.text) for __aeabi_memclr
+    arm_convolve_hwc_q7_fast_nonsquare.o(i.arm_convolve_HWC_q7_fast_nonsquare) refers to arm_q7_to_q15_reordered_no_shift.o(i.arm_q7_to_q15_reordered_no_shift) for arm_q7_to_q15_reordered_no_shift
+    arm_convolve_hwc_q7_fast_nonsquare.o(i.arm_convolve_HWC_q7_fast_nonsquare) refers to arm_nn_mat_mult_kernel_q7_q15_reordered.o(i.arm_nn_mat_mult_kernel_q7_q15_reordered) for arm_nn_mat_mult_kernel_q7_q15_reordered
+    arm_depthwise_conv_u8_basic_ver1.o(i.arm_depthwise_conv_u8_basic_ver1) refers to llsdiv.o(.text) for __aeabi_ldivmod
+    arm_depthwise_separable_conv_hwc_q7.o(i.arm_depthwise_separable_conv_HWC_q7) refers to rt_memclr.o(.text) for __aeabi_memclr
+    arm_depthwise_separable_conv_hwc_q7.o(i.arm_depthwise_separable_conv_HWC_q7) refers to rt_memcpy_v6.o(.text) for __aeabi_memcpy
+    arm_depthwise_separable_conv_hwc_q7_nonsquare.o(i.arm_depthwise_separable_conv_HWC_q7_nonsquare) refers to rt_memclr.o(.text) for __aeabi_memclr
+    arm_depthwise_separable_conv_hwc_q7_nonsquare.o(i.arm_depthwise_separable_conv_HWC_q7_nonsquare) refers to rt_memcpy_v6.o(.text) for __aeabi_memcpy
+    arm_fully_connected_q7.o(i.arm_fully_connected_q7) refers to arm_q7_to_q15_reordered_no_shift.o(i.arm_q7_to_q15_reordered_no_shift) for arm_q7_to_q15_reordered_no_shift
+    arm_fully_connected_q7_opt.o(i.arm_fully_connected_q7_opt) refers to arm_q7_to_q15_reordered_no_shift.o(i.arm_q7_to_q15_reordered_no_shift) for arm_q7_to_q15_reordered_no_shift
+    arm_pool_q7_hwc.o(i.arm_avepool_q7_HWC) refers to arm_q7_to_q15_no_shift.o(i.arm_q7_to_q15_no_shift) for arm_q7_to_q15_no_shift
+    arm_pool_q7_hwc.o(i.arm_avepool_q7_HWC) refers to arm_pool_q7_hwc.o(i.accumulate_q7_to_q15) for accumulate_q7_to_q15
+    arm_pool_q7_hwc.o(i.arm_avepool_q7_HWC) refers to arm_pool_q7_hwc.o(i.buffer_scale_back_q15_to_q7) for buffer_scale_back_q15_to_q7
+    arm_pool_q7_hwc.o(i.arm_maxpool_q7_HWC) refers to rt_memmove_v6.o(.text) for __aeabi_memmove
+    arm_pool_q7_hwc.o(i.arm_maxpool_q7_HWC) refers to arm_pool_q7_hwc.o(i.compare_and_replace_if_larger_q7) for compare_and_replace_if_larger_q7
+    arm_softmax_q15.o(i.arm_softmax_q15) refers to llsdiv.o(.text) for __aeabi_ldivmod
+    startup_lpc407x_8x_177x_8x.o(STACK) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_lpc407x_8x_177x_8x.o(HEAP) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_lpc407x_8x_177x_8x.o(RESET) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_lpc407x_8x_177x_8x.o(RESET) refers to startup_lpc407x_8x_177x_8x.o(STACK) for __initial_sp
+    startup_lpc407x_8x_177x_8x.o(RESET) refers to startup_lpc407x_8x_177x_8x.o(.text) for Reset_Handler
+    startup_lpc407x_8x_177x_8x.o(.ARM.__at_0x02FC) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_lpc407x_8x_177x_8x.o(.text) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_lpc407x_8x_177x_8x.o(.text) refers to system_lpc407x_8x_177x_8x.o(i.SystemInit) for SystemInit
+    startup_lpc407x_8x_177x_8x.o(.text) refers to startup_lpc407x_8x_177x_8x.o(HEAP) for Heap_Mem
+    startup_lpc407x_8x_177x_8x.o(.text) refers to startup_lpc407x_8x_177x_8x.o(STACK) for Stack_Mem
+    system_lpc407x_8x_177x_8x.o(i.SystemCoreClockUpdate) refers to system_lpc407x_8x_177x_8x.o(.data) for SystemCoreClock
+    system_lpc407x_8x_177x_8x.o(i.SystemInit) refers to system_lpc407x_8x_177x_8x.o(i.fpu_init) for fpu_init
+    system_lpc407x_8x_177x_8x.o(i.SystemInit) refers to system_lpc407x_8x_177x_8x.o(i.SystemCoreClockUpdate) for SystemCoreClockUpdate
+    system_lpc407x_8x_177x_8x.o(i.SystemInit) refers to system_lpc407x_8x_177x_8x.o(i.SystemInit_ExtMemCtl) for SystemInit_ExtMemCtl
+    system_lpc407x_8x_177x_8x.o(i.SystemInit_ExtMemCtl) refers to system_lpc407x_8x_177x_8x.o(i._DelayMs) for _DelayMs
+    system_lpc407x_8x_177x_8x.o(i._DelayMs) refers to system_lpc407x_8x_177x_8x.o(.data) for SystemCoreClock
+    llsdiv.o(.text) refers to lludivv7m.o(.text) for __aeabi_uldivmod
+    rt_memcpy_v6.o(.text) refers to rt_memcpy_w.o(.text) for __aeabi_memcpy4
+    rt_memmove_v6.o(.text) refers to rt_memcpy_v6.o(.text) for __aeabi_memcpy
+    rt_memmove_v6.o(.text) refers to rt_memmove_w.o(.text) for __memmove_aligned
+    rt_memclr.o(.text) refers to rt_memclr_w.o(.text) for _memset_w
+    rt_memmove_w.o(.text) refers to rt_memcpy_w.o(.text) for __aeabi_memcpy4
+    aeabi_ldiv0_sigfpe.o(.text) refers to rt_div0.o(.text) for __rt_div0
+    rt_div0.o(.text) refers to defsig_fpe_outer.o(.text) for __rt_SIGFPE
+    defsig_fpe_outer.o(.text) refers to defsig_fpe_inner.o(.text) for __rt_SIGFPE_inner
+    defsig_fpe_outer.o(.text) refers to defsig_exit.o(.text) for __sig_exit
+    defsig_fpe_formal.o(.text) refers to rt_raise.o(.text) for __rt_raise
+    rt_raise.o(.text) refers to __raise.o(.text) for __raise
+    rt_raise.o(.text) refers to sys_exit.o(.text) for _sys_exit
+    defsig_exit.o(.text) refers to sys_exit.o(.text) for _sys_exit
+    defsig_fpe_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    sys_exit.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_exit.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    __raise.o(.text) refers to defsig.o(CL$$defsig) for __default_signal_handler
+    defsig_general.o(.text) refers to sys_wrch.o(.text) for _ttywrch
+    sys_wrch.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_wrch.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    defsig.o(CL$$defsig) refers to defsig_fpe_inner.o(.text) for __rt_SIGFPE_inner
+    defsig_abrt_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_rtred_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_rtmem_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_stak_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_pvfn_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_cppl_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_segv_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_other.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing arm_nn_activations_q15.o(.rev16_text), (4 bytes).
+    Removing arm_nn_activations_q15.o(.revsh_text), (4 bytes).
+    Removing arm_nn_activations_q15.o(.rrx_text), (6 bytes).
+    Removing arm_nn_activations_q15.o(i.arm_nn_activations_direct_q15), (180 bytes).
+    Removing arm_nn_activations_q7.o(.rev16_text), (4 bytes).
+    Removing arm_nn_activations_q7.o(.revsh_text), (4 bytes).
+    Removing arm_nn_activations_q7.o(.rrx_text), (6 bytes).
+    Removing arm_nn_activations_q7.o(i.arm_nn_activations_direct_q7), (88 bytes).
+    Removing arm_relu_q15.o(.rev16_text), (4 bytes).
+    Removing arm_relu_q15.o(.revsh_text), (4 bytes).
+    Removing arm_relu_q15.o(.rrx_text), (6 bytes).
+    Removing arm_relu_q15.o(i.arm_relu_q15), (82 bytes).
+    Removing arm_relu_q7.o(.rev16_text), (4 bytes).
+    Removing arm_relu_q7.o(.revsh_text), (4 bytes).
+    Removing arm_relu_q7.o(.rrx_text), (6 bytes).
+    Removing arm_relu_q7.o(i.arm_relu_q7), (94 bytes).
+    Removing arm_convolve_1x1_hwc_q7_fast_nonsquare.o(.rev16_text), (4 bytes).
+    Removing arm_convolve_1x1_hwc_q7_fast_nonsquare.o(.revsh_text), (4 bytes).
+    Removing arm_convolve_1x1_hwc_q7_fast_nonsquare.o(.rrx_text), (6 bytes).
+    Removing arm_convolve_1x1_hwc_q7_fast_nonsquare.o(i.arm_convolve_1x1_HWC_q7_fast_nonsquare), (442 bytes).
+    Removing arm_convolve_hwc_q15_basic.o(.rev16_text), (4 bytes).
+    Removing arm_convolve_hwc_q15_basic.o(.revsh_text), (4 bytes).
+    Removing arm_convolve_hwc_q15_basic.o(.rrx_text), (6 bytes).
+    Removing arm_convolve_hwc_q15_basic.o(i.arm_convolve_HWC_q15_basic), (410 bytes).
+    Removing arm_convolve_hwc_q15_fast.o(.rev16_text), (4 bytes).
+    Removing arm_convolve_hwc_q15_fast.o(.revsh_text), (4 bytes).
+    Removing arm_convolve_hwc_q15_fast.o(.rrx_text), (6 bytes).
+    Removing arm_convolve_hwc_q15_fast.o(i.arm_convolve_HWC_q15_fast), (764 bytes).
+    Removing arm_convolve_hwc_q7_rgb.o(.rev16_text), (4 bytes).
+    Removing arm_convolve_hwc_q7_rgb.o(.revsh_text), (4 bytes).
+    Removing arm_convolve_hwc_q7_rgb.o(.rrx_text), (6 bytes).
+    Removing arm_convolve_hwc_q7_rgb.o(i.arm_convolve_HWC_q7_RGB), (562 bytes).
+    Removing arm_convolve_hwc_q7_basic.o(.rev16_text), (4 bytes).
+    Removing arm_convolve_hwc_q7_basic.o(.revsh_text), (4 bytes).
+    Removing arm_convolve_hwc_q7_basic.o(.rrx_text), (6 bytes).
+    Removing arm_convolve_hwc_q7_basic.o(i.arm_convolve_HWC_q7_basic), (528 bytes).
+    Removing arm_convolve_hwc_q7_basic_nonsquare.o(.rev16_text), (4 bytes).
+    Removing arm_convolve_hwc_q7_basic_nonsquare.o(.revsh_text), (4 bytes).
+    Removing arm_convolve_hwc_q7_basic_nonsquare.o(.rrx_text), (6 bytes).
+    Removing arm_convolve_hwc_q7_basic_nonsquare.o(i.arm_convolve_HWC_q7_basic_nonsquare), (542 bytes).
+    Removing arm_convolve_hwc_q7_fast.o(.rev16_text), (4 bytes).
+    Removing arm_convolve_hwc_q7_fast.o(.revsh_text), (4 bytes).
+    Removing arm_convolve_hwc_q7_fast.o(.rrx_text), (6 bytes).
+    Removing arm_convolve_hwc_q7_fast.o(i.arm_convolve_HWC_q7_fast), (1238 bytes).
+    Removing arm_convolve_hwc_q7_fast_nonsquare.o(.rev16_text), (4 bytes).
+    Removing arm_convolve_hwc_q7_fast_nonsquare.o(.revsh_text), (4 bytes).
+    Removing arm_convolve_hwc_q7_fast_nonsquare.o(.rrx_text), (6 bytes).
+    Removing arm_convolve_hwc_q7_fast_nonsquare.o(i.arm_convolve_HWC_q7_fast_nonsquare), (1268 bytes).
+    Removing arm_depthwise_conv_u8_basic_ver1.o(.rev16_text), (4 bytes).
+    Removing arm_depthwise_conv_u8_basic_ver1.o(.revsh_text), (4 bytes).
+    Removing arm_depthwise_conv_u8_basic_ver1.o(.rrx_text), (6 bytes).
+    Removing arm_depthwise_conv_u8_basic_ver1.o(i.arm_depthwise_conv_u8_basic_ver1), (962 bytes).
+    Removing arm_depthwise_separable_conv_hwc_q7.o(.rev16_text), (4 bytes).
+    Removing arm_depthwise_separable_conv_hwc_q7.o(.revsh_text), (4 bytes).
+    Removing arm_depthwise_separable_conv_hwc_q7.o(.rrx_text), (6 bytes).
+    Removing arm_depthwise_separable_conv_hwc_q7.o(i.arm_depthwise_separable_conv_HWC_q7), (900 bytes).
+    Removing arm_depthwise_separable_conv_hwc_q7_nonsquare.o(.rev16_text), (4 bytes).
+    Removing arm_depthwise_separable_conv_hwc_q7_nonsquare.o(.revsh_text), (4 bytes).
+    Removing arm_depthwise_separable_conv_hwc_q7_nonsquare.o(.rrx_text), (6 bytes).
+    Removing arm_depthwise_separable_conv_hwc_q7_nonsquare.o(i.arm_depthwise_separable_conv_HWC_q7_nonsquare), (902 bytes).
+    Removing arm_nn_mat_mult_kernel_q7_q15.o(.rev16_text), (4 bytes).
+    Removing arm_nn_mat_mult_kernel_q7_q15.o(.revsh_text), (4 bytes).
+    Removing arm_nn_mat_mult_kernel_q7_q15.o(.rrx_text), (6 bytes).
+    Removing arm_nn_mat_mult_kernel_q7_q15.o(i.arm_nn_mat_mult_kernel_q7_q15), (1114 bytes).
+    Removing arm_nn_mat_mult_kernel_q7_q15_reordered.o(.rev16_text), (4 bytes).
+    Removing arm_nn_mat_mult_kernel_q7_q15_reordered.o(.revsh_text), (4 bytes).
+    Removing arm_nn_mat_mult_kernel_q7_q15_reordered.o(.rrx_text), (6 bytes).
+    Removing arm_nn_mat_mult_kernel_q7_q15_reordered.o(i.arm_nn_mat_mult_kernel_q7_q15_reordered), (606 bytes).
+    Removing arm_fully_connected_mat_q7_vec_q15.o(.rev16_text), (4 bytes).
+    Removing arm_fully_connected_mat_q7_vec_q15.o(.revsh_text), (4 bytes).
+    Removing arm_fully_connected_mat_q7_vec_q15.o(.rrx_text), (6 bytes).
+    Removing arm_fully_connected_mat_q7_vec_q15.o(i.arm_fully_connected_mat_q7_vec_q15), (622 bytes).
+    Removing arm_fully_connected_mat_q7_vec_q15_opt.o(.rev16_text), (4 bytes).
+    Removing arm_fully_connected_mat_q7_vec_q15_opt.o(.revsh_text), (4 bytes).
+    Removing arm_fully_connected_mat_q7_vec_q15_opt.o(.rrx_text), (6 bytes).
+    Removing arm_fully_connected_mat_q7_vec_q15_opt.o(i.arm_fully_connected_mat_q7_vec_q15_opt), (678 bytes).
+    Removing arm_fully_connected_q15.o(.rev16_text), (4 bytes).
+    Removing arm_fully_connected_q15.o(.revsh_text), (4 bytes).
+    Removing arm_fully_connected_q15.o(.rrx_text), (6 bytes).
+    Removing arm_fully_connected_q15.o(i.arm_fully_connected_q15), (440 bytes).
+    Removing arm_fully_connected_q15_opt.o(.rev16_text), (4 bytes).
+    Removing arm_fully_connected_q15_opt.o(.revsh_text), (4 bytes).
+    Removing arm_fully_connected_q15_opt.o(.rrx_text), (6 bytes).
+    Removing arm_fully_connected_q15_opt.o(i.arm_fully_connected_q15_opt), (580 bytes).
+    Removing arm_fully_connected_q7.o(.rev16_text), (4 bytes).
+    Removing arm_fully_connected_q7.o(.revsh_text), (4 bytes).
+    Removing arm_fully_connected_q7.o(.rrx_text), (6 bytes).
+    Removing arm_fully_connected_q7.o(i.arm_fully_connected_q7), (492 bytes).
+    Removing arm_fully_connected_q7_opt.o(.rev16_text), (4 bytes).
+    Removing arm_fully_connected_q7_opt.o(.revsh_text), (4 bytes).
+    Removing arm_fully_connected_q7_opt.o(.rrx_text), (6 bytes).
+    Removing arm_fully_connected_q7_opt.o(i.arm_fully_connected_q7_opt), (574 bytes).
+    Removing arm_nn_mult_q15.o(.rev16_text), (4 bytes).
+    Removing arm_nn_mult_q15.o(.revsh_text), (4 bytes).
+    Removing arm_nn_mult_q15.o(.rrx_text), (6 bytes).
+    Removing arm_nn_mult_q15.o(i.arm_nn_mult_q15), (254 bytes).
+    Removing arm_nn_mult_q7.o(.rev16_text), (4 bytes).
+    Removing arm_nn_mult_q7.o(.revsh_text), (4 bytes).
+    Removing arm_nn_mult_q7.o(.rrx_text), (6 bytes).
+    Removing arm_nn_mult_q7.o(i.arm_nn_mult_q7), (240 bytes).
+    Removing arm_nntables.o(.rev16_text), (4 bytes).
+    Removing arm_nntables.o(.revsh_text), (4 bytes).
+    Removing arm_nntables.o(.rrx_text), (6 bytes).
+    Removing arm_nntables.o(.constdata), (2816 bytes).
+    Removing arm_q7_to_q15_no_shift.o(.rev16_text), (4 bytes).
+    Removing arm_q7_to_q15_no_shift.o(.revsh_text), (4 bytes).
+    Removing arm_q7_to_q15_no_shift.o(.rrx_text), (6 bytes).
+    Removing arm_q7_to_q15_no_shift.o(i.arm_q7_to_q15_no_shift), (80 bytes).
+    Removing arm_q7_to_q15_reordered_no_shift.o(.rev16_text), (4 bytes).
+    Removing arm_q7_to_q15_reordered_no_shift.o(.revsh_text), (4 bytes).
+    Removing arm_q7_to_q15_reordered_no_shift.o(.rrx_text), (6 bytes).
+    Removing arm_q7_to_q15_reordered_no_shift.o(i.arm_q7_to_q15_reordered_no_shift), (60 bytes).
+    Removing arm_pool_q7_hwc.o(.rev16_text), (4 bytes).
+    Removing arm_pool_q7_hwc.o(.revsh_text), (4 bytes).
+    Removing arm_pool_q7_hwc.o(.rrx_text), (6 bytes).
+    Removing arm_pool_q7_hwc.o(i.accumulate_q7_to_q15), (124 bytes).
+    Removing arm_pool_q7_hwc.o(i.arm_avepool_q7_HWC), (388 bytes).
+    Removing arm_pool_q7_hwc.o(i.arm_maxpool_q7_HWC), (326 bytes).
+    Removing arm_pool_q7_hwc.o(i.buffer_scale_back_q15_to_q7), (28 bytes).
+    Removing arm_pool_q7_hwc.o(i.compare_and_replace_if_larger_q7), (156 bytes).
+    Removing arm_softmax_q15.o(.rev16_text), (4 bytes).
+    Removing arm_softmax_q15.o(.revsh_text), (4 bytes).
+    Removing arm_softmax_q15.o(.rrx_text), (6 bytes).
+    Removing arm_softmax_q15.o(i.arm_softmax_q15), (172 bytes).
+    Removing arm_softmax_q7.o(.rev16_text), (4 bytes).
+    Removing arm_softmax_q7.o(.revsh_text), (4 bytes).
+    Removing arm_softmax_q7.o(.rrx_text), (6 bytes).
+    Removing arm_softmax_q7.o(i.arm_softmax_q7), (168 bytes).
+    Removing system_lpc407x_8x_177x_8x.o(.rev16_text), (4 bytes).
+    Removing system_lpc407x_8x_177x_8x.o(.revsh_text), (4 bytes).
+    Removing system_lpc407x_8x_177x_8x.o(.rrx_text), (6 bytes).
+
+131 unused section(s) (total 19328 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section      228  startup_lpc407x_8x_177x_8x.o(RESET)
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_raise.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  aeabi_ldiv0.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_div0.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  aeabi_ldiv0_sigfpe.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  indicate_semi.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  use_no_semi.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_exit.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_wrch.o ABSOLUTE
+    ../clib/heapaux.c                        0x00000000   Number         0  heapauxi.o ABSOLUTE
+    ../clib/longlong.s                       0x00000000   Number         0  lludivv7m.o ABSOLUTE
+    ../clib/longlong.s                       0x00000000   Number         0  llsdiv.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memmove_v6.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memclr.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memcpy_w.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memcpy_v6.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memmove_w.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memclr_w.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_pvfn_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_cppl_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_segv_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  __raise.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_exit.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_formal.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_abrt_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_outer.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_other.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_general.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtred_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_stak_inner.o ABSOLUTE
+    ../clib/signal.s                         0x00000000   Number         0  defsig.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q15.c 0x00000000   Number         0  arm_nn_activations_q15.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_nn_activations_q7.c 0x00000000   Number         0  arm_nn_activations_q7.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_relu_q15.c 0x00000000   Number         0  arm_relu_q15.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ActivationFunctions\arm_relu_q7.c 0x00000000   Number         0  arm_relu_q7.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_1x1_HWC_q7_fast_nonsquare.c 0x00000000   Number         0  arm_convolve_1x1_hwc_q7_fast_nonsquare.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_basic.c 0x00000000   Number         0  arm_convolve_hwc_q15_basic.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q15_fast.c 0x00000000   Number         0  arm_convolve_hwc_q15_fast.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_RGB.c 0x00000000   Number         0  arm_convolve_hwc_q7_rgb.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic.c 0x00000000   Number         0  arm_convolve_hwc_q7_basic.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_basic_nonsquare.c 0x00000000   Number         0  arm_convolve_hwc_q7_basic_nonsquare.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast.c 0x00000000   Number         0  arm_convolve_hwc_q7_fast.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_convolve_HWC_q7_fast_nonsquare.c 0x00000000   Number         0  arm_convolve_hwc_q7_fast_nonsquare.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_conv_u8_basic_ver1.c 0x00000000   Number         0  arm_depthwise_conv_u8_basic_ver1.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7.c 0x00000000   Number         0  arm_depthwise_separable_conv_hwc_q7.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_depthwise_separable_conv_HWC_q7_nonsquare.c 0x00000000   Number         0  arm_depthwise_separable_conv_hwc_q7_nonsquare.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15.c 0x00000000   Number         0  arm_nn_mat_mult_kernel_q7_q15.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\ConvolutionFunctions\arm_nn_mat_mult_kernel_q7_q15_reordered.c 0x00000000   Number         0  arm_nn_mat_mult_kernel_q7_q15_reordered.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15.c 0x00000000   Number         0  arm_fully_connected_mat_q7_vec_q15.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_mat_q7_vec_q15_opt.c 0x00000000   Number         0  arm_fully_connected_mat_q7_vec_q15_opt.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15.c 0x00000000   Number         0  arm_fully_connected_q15.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q15_opt.c 0x00000000   Number         0  arm_fully_connected_q15_opt.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7.c 0x00000000   Number         0  arm_fully_connected_q7.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\FullyConnectedFunctions\arm_fully_connected_q7_opt.c 0x00000000   Number         0  arm_fully_connected_q7_opt.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q15.c 0x00000000   Number         0  arm_nn_mult_q15.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nn_mult_q7.c 0x00000000   Number         0  arm_nn_mult_q7.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_nntables.c 0x00000000   Number         0  arm_nntables.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_no_shift.c 0x00000000   Number         0  arm_q7_to_q15_no_shift.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\NNSupportFunctions\arm_q7_to_q15_reordered_no_shift.c 0x00000000   Number         0  arm_q7_to_q15_reordered_no_shift.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\PoolingFunctions\arm_pool_q7_HWC.c 0x00000000   Number         0  arm_pool_q7_hwc.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q15.c 0x00000000   Number         0  arm_softmax_q15.o ABSOLUTE
+    C:\Users\gabriel.ganzer\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_q7.c 0x00000000   Number         0  arm_softmax_q7.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ActivationFunctions\\arm_nn_activations_q15.c 0x00000000   Number         0  arm_nn_activations_q15.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ActivationFunctions\\arm_nn_activations_q7.c 0x00000000   Number         0  arm_nn_activations_q7.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ActivationFunctions\\arm_relu_q15.c 0x00000000   Number         0  arm_relu_q15.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ActivationFunctions\\arm_relu_q7.c 0x00000000   Number         0  arm_relu_q7.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_convolve_1x1_HWC_q7_fast_nonsquare.c 0x00000000   Number         0  arm_convolve_1x1_hwc_q7_fast_nonsquare.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_convolve_HWC_q15_basic.c 0x00000000   Number         0  arm_convolve_hwc_q15_basic.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_convolve_HWC_q15_fast.c 0x00000000   Number         0  arm_convolve_hwc_q15_fast.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_convolve_HWC_q7_RGB.c 0x00000000   Number         0  arm_convolve_hwc_q7_rgb.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_convolve_HWC_q7_basic.c 0x00000000   Number         0  arm_convolve_hwc_q7_basic.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_convolve_HWC_q7_basic_nonsquare.c 0x00000000   Number         0  arm_convolve_hwc_q7_basic_nonsquare.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_convolve_HWC_q7_fast.c 0x00000000   Number         0  arm_convolve_hwc_q7_fast.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_convolve_HWC_q7_fast_nonsquare.c 0x00000000   Number         0  arm_convolve_hwc_q7_fast_nonsquare.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_depthwise_conv_u8_basic_ver1.c 0x00000000   Number         0  arm_depthwise_conv_u8_basic_ver1.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_depthwise_separable_conv_HWC_q7.c 0x00000000   Number         0  arm_depthwise_separable_conv_hwc_q7.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_depthwise_separable_conv_HWC_q7_nonsquare.c 0x00000000   Number         0  arm_depthwise_separable_conv_hwc_q7_nonsquare.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_nn_mat_mult_kernel_q7_q15.c 0x00000000   Number         0  arm_nn_mat_mult_kernel_q7_q15.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\ConvolutionFunctions\\arm_nn_mat_mult_kernel_q7_q15_reordered.c 0x00000000   Number         0  arm_nn_mat_mult_kernel_q7_q15_reordered.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\FullyConnectedFunctions\\arm_fully_connected_mat_q7_vec_q15.c 0x00000000   Number         0  arm_fully_connected_mat_q7_vec_q15.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\FullyConnectedFunctions\\arm_fully_connected_mat_q7_vec_q15_opt.c 0x00000000   Number         0  arm_fully_connected_mat_q7_vec_q15_opt.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\FullyConnectedFunctions\\arm_fully_connected_q15.c 0x00000000   Number         0  arm_fully_connected_q15.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\FullyConnectedFunctions\\arm_fully_connected_q15_opt.c 0x00000000   Number         0  arm_fully_connected_q15_opt.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\FullyConnectedFunctions\\arm_fully_connected_q7.c 0x00000000   Number         0  arm_fully_connected_q7.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\FullyConnectedFunctions\\arm_fully_connected_q7_opt.c 0x00000000   Number         0  arm_fully_connected_q7_opt.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\NNSupportFunctions\\arm_nn_mult_q15.c 0x00000000   Number         0  arm_nn_mult_q15.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\NNSupportFunctions\\arm_nn_mult_q7.c 0x00000000   Number         0  arm_nn_mult_q7.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\NNSupportFunctions\\arm_nntables.c 0x00000000   Number         0  arm_nntables.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\NNSupportFunctions\\arm_q7_to_q15_no_shift.c 0x00000000   Number         0  arm_q7_to_q15_no_shift.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\NNSupportFunctions\\arm_q7_to_q15_reordered_no_shift.c 0x00000000   Number         0  arm_q7_to_q15_reordered_no_shift.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\PoolingFunctions\\arm_pool_q7_HWC.c 0x00000000   Number         0  arm_pool_q7_hwc.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\SoftmaxFunctions\\arm_softmax_q15.c 0x00000000   Number         0  arm_softmax_q15.o ABSOLUTE
+    C:\\Users\\gabriel.ganzer\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.6.0\\CMSIS\\NN\\Source\\SoftmaxFunctions\\arm_softmax_q7.c 0x00000000   Number         0  arm_softmax_q7.o ABSOLUTE
+    RTE\Device\LPC4072FBD80\startup_LPC407x_8x_177x_8x.s 0x00000000   Number         0  startup_lpc407x_8x_177x_8x.o ABSOLUTE
+    RTE\Device\LPC4072FBD80\system_LPC407x_8x_177x_8x.c 0x00000000   Number         0  system_lpc407x_8x_177x_8x.o ABSOLUTE
+    RTE\\Device\\LPC4072FBD80\\system_LPC407x_8x_177x_8x.c 0x00000000   Number         0  system_lpc407x_8x_177x_8x.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    .text                                    0x000000e4   Section      100  startup_lpc407x_8x_177x_8x.o(.text)
+    Rn                                       0x00000102   Data           4  startup_lpc407x_8x_177x_8x.o(.text)
+    Rm                                       0x00000106   Data           4  startup_lpc407x_8x_177x_8x.o(.text)
+    .text                                    0x00000148   Section        0  heapauxi.o(.text)
+    i.SystemInit                             0x00000150   Section        0  system_lpc407x_8x_177x_8x.o(i.SystemInit)
+    i._DelayMs                               0x00000240   Section        0  system_lpc407x_8x_177x_8x.o(i._DelayMs)
+    _DelayMs                                 0x00000241   Thumb Code    38  system_lpc407x_8x_177x_8x.o(i._DelayMs)
+    i.fpu_init                               0x0000026c   Section        0  system_lpc407x_8x_177x_8x.o(i.fpu_init)
+    .ARM.__at_0x02FC                         0x000002fc   Section        4  startup_lpc407x_8x_177x_8x.o(.ARM.__at_0x02FC)
+    i.SystemCoreClockUpdate                  0x00000300   Section        0  system_lpc407x_8x_177x_8x.o(i.SystemCoreClockUpdate)
+    i.SystemInit_ExtMemCtl                   0x000005d4   Section        0  system_lpc407x_8x_177x_8x.o(i.SystemInit_ExtMemCtl)
+    .data                                    0x10000000   Section       16  system_lpc407x_8x_177x_8x.o(.data)
+    HEAP                                     0x10000010   Section        0  startup_lpc407x_8x_177x_8x.o(HEAP)
+    STACK                                    0x10000010   Section     1024  startup_lpc407x_8x_177x_8x.o(STACK)
+    Heap_Mem                                 0x10000010   Data           0  startup_lpc407x_8x_177x_8x.o(HEAP)
+    Stack_Mem                                0x10000010   Data        1024  startup_lpc407x_8x_177x_8x.o(STACK)
+    __initial_sp                             0x10000410   Data           0  startup_lpc407x_8x_177x_8x.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$E$P$D$K$B$S$7EM$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$EBA8$STANDARDLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_lpc407x_8x_177x_8x.o(RESET)
+    __sigvec_lookup                           - Undefined Weak Reference
+    Reset_Handler                            0x000000e5   Thumb Code    42  startup_lpc407x_8x_177x_8x.o(.text)
+    NMI_Handler                              0x0000010f   Thumb Code     2  startup_lpc407x_8x_177x_8x.o(.text)
+    HardFault_Handler                        0x00000111   Thumb Code     2  startup_lpc407x_8x_177x_8x.o(.text)
+    MemManage_Handler                        0x00000113   Thumb Code     2  startup_lpc407x_8x_177x_8x.o(.text)
+    BusFault_Handler                         0x00000115   Thumb Code     2  startup_lpc407x_8x_177x_8x.o(.text)
+    UsageFault_Handler                       0x00000117   Thumb Code     2  startup_lpc407x_8x_177x_8x.o(.text)
+    SVC_Handler                              0x00000119   Thumb Code     2  startup_lpc407x_8x_177x_8x.o(.text)
+    DebugMon_Handler                         0x0000011b   Thumb Code     2  startup_lpc407x_8x_177x_8x.o(.text)
+    PendSV_Handler                           0x0000011d   Thumb Code     2  startup_lpc407x_8x_177x_8x.o(.text)
+    SysTick_Handler                          0x0000011f   Thumb Code     2  startup_lpc407x_8x_177x_8x.o(.text)
+    ADC_IRQHandler                           0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    BOD_IRQHandler                           0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    CANActivity_IRQHandler                   0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    CAN_IRQHandler                           0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    DMA_IRQHandler                           0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    EEPROM_IRQHandler                        0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    EINT0_IRQHandler                         0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    EINT1_IRQHandler                         0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    EINT2_IRQHandler                         0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    EINT3_IRQHandler                         0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    ENET_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    GPIO_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    I2C0_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    I2C1_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    I2C2_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    I2S_IRQHandler                           0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    LCD_IRQHandler                           0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    MCI_IRQHandler                           0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    MCPWM_IRQHandler                         0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    PLL0_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    PLL1_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    PWM0_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    PWM1_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    QEI_IRQHandler                           0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    RTC_IRQHandler                           0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    SSP0_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    SSP1_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    SSP2_IRQHandler                          0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    TIMER0_IRQHandler                        0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    TIMER1_IRQHandler                        0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    TIMER2_IRQHandler                        0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    TIMER3_IRQHandler                        0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    UART0_IRQHandler                         0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    UART1_IRQHandler                         0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    UART2_IRQHandler                         0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    UART3_IRQHandler                         0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    UART4_IRQHandler                         0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    USBActivity_IRQHandler                   0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    USB_IRQHandler                           0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    WDT_IRQHandler                           0x00000121   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    __user_initial_stackheap                 0x00000125   Thumb Code     0  startup_lpc407x_8x_177x_8x.o(.text)
+    __use_two_region_memory                  0x00000149   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_escrow$2region                 0x0000014b   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_expand$2region                 0x0000014d   Thumb Code     2  heapauxi.o(.text)
+    SystemInit                               0x00000151   Thumb Code   224  system_lpc407x_8x_177x_8x.o(i.SystemInit)
+    fpu_init                                 0x0000026d   Thumb Code    62  system_lpc407x_8x_177x_8x.o(i.fpu_init)
+    SystemCoreClockUpdate                    0x00000301   Thumb Code   696  system_lpc407x_8x_177x_8x.o(i.SystemCoreClockUpdate)
+    SystemInit_ExtMemCtl                     0x000005d5   Thumb Code   468  system_lpc407x_8x_177x_8x.o(i.SystemInit_ExtMemCtl)
+    SystemCoreClock                          0x10000000   Data           4  system_lpc407x_8x_177x_8x.o(.data)
+    PeripheralClock                          0x10000004   Data           4  system_lpc407x_8x_177x_8x.o(.data)
+    EMCClock                                 0x10000008   Data           4  system_lpc407x_8x_177x_8x.o(.data)
+    USBClock                                 0x1000000c   Data           4  system_lpc407x_8x_177x_8x.o(.data)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x000000e5
+
+  Load Region LR_1 (Base: 0x00000000, Size: 0x000007dc, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x000007cc, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000000   0x000000e4   Data   RO          817    RESET               startup_lpc407x_8x_177x_8x.o
+    0x000000e4   0x000000e4   0x00000064   Code   RO          819  * .text               startup_lpc407x_8x_177x_8x.o
+    0x00000148   0x00000148   0x00000006   Code   RO          901    .text               c_w.l(heapauxi.o)
+    0x0000014e   0x0000014e   0x00000002   PAD
+    0x00000150   0x00000150   0x000000f0   Code   RO          829    i.SystemInit        system_lpc407x_8x_177x_8x.o
+    0x00000240   0x00000240   0x0000002c   Code   RO          831    i._DelayMs          system_lpc407x_8x_177x_8x.o
+    0x0000026c   0x0000026c   0x00000050   Code   RO          832    i.fpu_init          system_lpc407x_8x_177x_8x.o
+    0x000002bc   0x000002bc   0x00000040   PAD
+    0x000002fc   0x000002fc   0x00000004   Code   RO          818    .ARM.__at_0x02FC    startup_lpc407x_8x_177x_8x.o
+    0x00000300   0x00000300   0x000002d4   Code   RO          828    i.SystemCoreClockUpdate  system_lpc407x_8x_177x_8x.o
+    0x000005d4   0x000005d4   0x000001f8   Code   RO          830    i.SystemInit_ExtMemCtl  system_lpc407x_8x_177x_8x.o
+
+
+    Execution Region ER_RW (Exec base: 0x10000000, Load base: 0x000007cc, Size: 0x00000010, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x10000000   0x000007cc   0x00000010   Data   RW          833    .data               system_lpc407x_8x_177x_8x.o
+
+
+    Execution Region ER_ZI (Exec base: 0x10000010, Load base: 0x000007dc, Size: 0x00000400, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x10000010        -       0x00000000   Zero   RW          816    HEAP                startup_lpc407x_8x_177x_8x.o
+    0x10000010        -       0x00000400   Zero   RW          815    STACK               startup_lpc407x_8x_177x_8x.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+         0          0          0          0          0       4540   arm_nn_activations_q15.o
+       104         40        228          0       1024       1088   startup_lpc407x_8x_177x_8x.o
+      1592        104          0         16          0       8575   system_lpc407x_8x_177x_8x.o
+
+    ----------------------------------------------------------------------
+      1760        208        228         16       1024      14203   Object Totals
+         0          0          0          0          0          0   (incl. Generated)
+        64         64          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         6          0          0          0          0        152   heapauxi.o
+
+    ----------------------------------------------------------------------
+         8          0          0          0          0        152   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+         6          0          0          0          0        152   c_w.l
+
+    ----------------------------------------------------------------------
+         8          0          0          0          0        152   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      1768        208        228         16       1024      14095   Grand Totals
+      1768        208        228         16       1024      14095   ELF Image Totals
+      1768        208        228         16          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 1996 (   1.95kB)
+    Total RW  Size (RW Data + ZI Data)              1040 (   1.02kB)
+    Total ROM Size (Code + RO Data + RW Data)       2012 (   1.96kB)
+
+==============================================================================
+
