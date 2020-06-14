@@ -1,7 +1,7 @@
 
-## ARM ASM/C ##
+# ARM ASM/C
 
-# rename_fibonacci #
+## rename_fibonacci
 
 Program in ARM assembly language that renames register r1 to single_value, r2 to double_value, r3 to triple_value, r4 to quadruple_value e r5 to quintuple_value, assigns some value to single_value, and only using MOV and sum, assign these values to the registers:
   * double_value = single_value *2
@@ -11,30 +11,30 @@ Program in ARM assembly language that renames register r1 to single_value, r2 to
 Furthermore, it allocates 26 byte into a memory area DATA READWRITE, without initializing them, then r0 and r1 are initialized to 1, and registers r2-r12 the elements of
 Fibonacci sequence.
 
-# custom_instructions #
+## custom_instructions
 Program in ARM assembly language that implements and tests the instructions UADD8, USAD8, SMUAD, and SMUSD that are not present in the Cortex-M3 instruction set.
 
-# matrix_mul #
+## matrix_mul
 
 Program in ARM assembly language in order to multiply two matrices. The first matrix is made by N rows and M columns. The second matrix is made by M rows and P columns. The resulting matrix is made by N rows and P columns. All martrices are made by signed numbers expressed on a word. N, M, P are constants defined with EQU. The first two matrices are defined as constant in a READONLY memory area. The third matrix is allocated in a DATA READWRITE area. Intermediate sums have to be calculated on two words.
 
-# proc_sobroutine #
+## proc_sobroutine
 
 Program in ARM assembly language with routines that fulfill AAPCS standard. Furthermore, the program implements the handler of a Supervisor call, as well as a C function that computes the square root of the sum of the squares of 2 numbers.
 
-# arm_c # 
+## arm_c 
 
 Program in C language that tests the LPC1768 board I/O.
 
-# slot_machine #
+## slot_machine
 
 Program in C language that implements a slot machine with 3 rolling wheels. KEY1 button begins a new game and controls the first wheel. KEY2 button controls the second wheel. INT0 button controls the third wheel and states the possible win. The player wins if all 3 symbols are the same. At the end of the game (after INT0 has been pressed), win is displayed by powering on LED 11. If symbols are not all the same, the player loses an LED 10 is powered on.
 
-# simon_game #
+## simon_game
 
 Program in C language that implements the Simon game. Using Key1, Key2, Int0 buttons, the player has to repeat a random sequence, displayed using LEDs 4, 5, 6. If the sequence inserted by the player is the same as the one to emulate, the player wins. At this point the game repeats, increasing by 1 the length of the sequence. Otherwise the player loses, and the game starts again from sequence length 1.
 
-# shop_list #
+## shop_list
 
 A retailer must supply his shop by purchasing the goods from a wholesaler. The products sold by the wholesaler are listed in a Price_list table of N lines (N is a constant defined with EQU). Each line contains:
 - a hexadecimal code uniquely identifying the product, expressed in 1 word (4 bytes);
