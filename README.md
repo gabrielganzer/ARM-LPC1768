@@ -40,8 +40,4 @@ Fibonacci sequence.
   
 ## DOCUMENTATION
 
-Source files for each program can be found inside the respective folder.
-
-## LICENSE
-
-The source code of the project is licensed under the GPLv3 license, unless otherwise stated.  
+Source files for each program can be found inside respective folders. 
